@@ -176,8 +176,20 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">Artist Statement. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">Artist Statement. <span class="text-muted">My recent works feature women and guns.</span></h2>
+          <p class="lead">The image of a woman  holding a handgun can seem a rather strong, unlikely and worrisome one.  For me, a handgun is both a metaphor for violence, and an object of power.  Guns are not objects commonly associated with the conventional image of women.
+ 
+My work is centered on the dynamic tension between domestic, culturally accepted violence perpetrated against women, and the violent and instantaneous act by which, at times, women attempt to break -and escape from- this vicious cycle. 
+
+Wide swaths of our contemporary societies continue to chose to ignore the ever more pressing problem of gender-based violence.  
+ 
+My prints, in fact,  talk about the contemporary feminicide, and how gender-based violence has become an accepted part of modern life. 
+ 
+Through my work, I am trying to initiate a dialogue in which the public is led to experiment in a poetic way the chaotic nature of the human condition. Without using melodrama, simplifications or moralization, I thrive to bring forth the story of women confronted with abuses. 
+ 
+One of my objectives is to I try to give a voice to women who have lived and continue to live through these acts of horror in silence. 
+
+Ultimately, my intention is that the aesthetic space created by my work contributes to bringing the public to reflect on an age old problem that society has struggled to tackle. </p>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive" src="http://placehold.it/500x500" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
