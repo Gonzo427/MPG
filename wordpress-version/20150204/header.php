@@ -1,5 +1,5 @@
    <div class="navbar-wrapper">
-      <div class="container">
+      <div class="">
 
         <nav class="navbar navbar-inverse navbar-static-top">
           <div class="">
