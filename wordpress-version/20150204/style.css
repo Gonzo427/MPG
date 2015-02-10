@@ -84,6 +84,22 @@ p, li, a{
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
 	background-color: #01a3a6;
 }
+/* CONTACT FORM
+------------------------------------------ */
+.wpcf7-submit{
+	border: none;
+	font-size: 24px;
+	padding: 10px 45px;
+	color: #4c4c4c;
+	background-color: #fff;
+}
+.wpcf7-submit:hover{
+	background-color: #01a3a6;
+	color: #fff;
+}
+input, textarea{
+	color: #4c4c4c;
+}
 
 
 /* THE CAROUSEL
@@ -92,7 +108,11 @@ p, li, a{
 /* Carousel base class */
 .carousel {
   height: 500px;
-  margin-bottom: 60px;
+  margin: 60px 0;
+}
+
+.carousel h2{
+	1.5em;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -327,8 +347,21 @@ footer{
   }
   
 }
-@media (max-width: 480px{
+@media (max-width: 480px){
 	.navbar-inverse .navbar-brand {
-		font-size: 1em;
+		font-size: 1.2em;
+	}
+	
+	.navbar-toggle{
+		padding: 5px 1px;
+		margin-right: 5px;
+	}
+	
+	.carousel-caption h1{
+		font-size: 1.5em;
+	}
+	
+	.btn-primary{
+		font-size:14px;
 	}
 }
