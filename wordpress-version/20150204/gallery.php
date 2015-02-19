@@ -9,12 +9,18 @@
 	================================= -->
 	<div class="container gallery">
     <ul class="row baseline">
-       <li class="col-lg-2 col-md-4 col-sm-6 "><img style="width: 180px; height: auto; margin: 5% 0 1% 0;" src="<?php bloginfo('template_url');?>/images/WhenintheDark12.jpg"/>Caption</li>
-	   <li class="col-lg-2 col-md-4 col-sm-6 "><img style="width: 180px; height: auto; margin: 5% 0 1% 0;" src="<?php bloginfo('template_url');?>/images/El-gallo.png"/>Caption</li>
-	   <li class="col-lg-2 col-md-4 col-sm-6 "><img style="width: 180px; height: auto; margin: 5% 0 1% 0;" src="<?php bloginfo('template_url');?>/images/The-End-Game.png"/>Caption</li>
-	   <li class="col-lg-2 col-md-4 col-sm-6 "><img style="width: 180px; height: auto; margin: 5% 0 1% 0;" src="<?php bloginfo('template_url');?>/images/lluviaazul.jpg"/>Caption</li>
-   	   <li class="col-lg-2 col-md-4 col-sm-6 "><img style="width: 180px; height: auto; margin: 5% 0 1% 0;" src="<?php bloginfo('template_url');?>/images/Nosotroselpueblo.jpg"/>Caption</li>
-   	   <li class="col-lg-2 col-md-4 col-sm-6 "><img style="width: 180px; height: auto; margin: 5% 0 1% 0;" src="<?php bloginfo('template_url');?>/images/WhenintheDark12.jpg"/>Caption</li>
+       <li class="col-lg-2 col-md-4 col-sm-6 "><img style="width: 180px; height: auto; margin: 5% 0 1% 0;" src="<?php bloginfo('template_url');?>/images/When-in-the-Dark-1.jpg"/>Caption</li>
+	   <li class="col-lg-2 col-md-4 col-sm-6 "><img style="width: 180px; height: auto; margin: 5% 0 1% 0;" src="<?php bloginfo('template_url');?>/images/When-in-the-Dark-2.jpg"/>Caption</li>
+	   <li class="col-lg-2 col-md-4 col-sm-6 "><img style="width: 180px; height: auto; margin: 5% 0 1% 0;" src="<?php bloginfo('template_url');?>/images/When-in-the-Dark-3.jpg"/>Caption</li>
+	   <li class="col-lg-2 col-md-4 col-sm-6 "><img style="width: 180px; height: auto; margin: 5% 0 1% 0;" src="<?php bloginfo('template_url');?>/images/When-in-the-Dark-4.jpg"/>Caption</li>
+   	   <li class="col-lg-2 col-md-4 col-sm-6 "><img style="width: 180px; height: auto; margin: 5% 0 1% 0;" src="<?php bloginfo('template_url');?>/images/When-in-the-Dark-5.jpg"/>Caption</li>
+   	   <li class="col-lg-2 col-md-4 col-sm-6 "><img style="width: 180px; height: auto; margin: 5% 0 1% 0;" src="<?php bloginfo('template_url');?>/images/When-in-the-Dark-6.jpg"/>Caption</li>
+	   <li class="col-lg-2 col-md-4 col-sm-6 "><img style="width: 180px; height: auto; margin: 5% 0 1% 0;" src="<?php bloginfo('template_url');?>/images/When-in-the-Dark-7.jpg"/>Caption</li>
+	   <li class="col-lg-2 col-md-4 col-sm-6 "><img style="width: 180px; height: auto; margin: 5% 0 1% 0;" src="<?php bloginfo('template_url');?>/images/When-in-the-Dark-8.jpg"/>Caption</li>
+	   <li class="col-lg-2 col-md-4 col-sm-6 "><img style="width: 180px; height: auto; margin: 5% 0 1% 0;" src="<?php bloginfo('template_url');?>/images/When-in-the-Dark-9.jpg"/>Caption</li>
+	   <li class="col-lg-2 col-md-4 col-sm-6 "><img style="width: 180px; height: auto; margin: 5% 0 1% 0;" src="<?php bloginfo('template_url');?>/images/When-in-the-Dark-10.jpg"/>Caption</li>
+	   <li class="col-lg-2 col-md-4 col-sm-6 "><img style="width: 180px; height: auto; margin: 5% 0 1% 0;" src="<?php bloginfo('template_url');?>/images/When-in-the-Dark-11.jpg"/>Caption</li>
+	   <li class="col-lg-2 col-md-4 col-sm-6 "><img style="width: 180px; height: auto; margin: 5% 0 1% 0;" src="<?php bloginfo('template_url');?>/images/When-in-the-Dark-12.jpg"/>Caption</li>
       
     </ul>
 	</div>

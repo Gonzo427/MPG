@@ -1,0 +1,384 @@
+/*
+Theme Name: MPG
+Theme URL:
+Description: A theme for an artist
+Author: TMT Digital
+Version: 1.0
+Tags: Responsive, black background 
+
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  color: #fff;
+  background-color: #111;
+  background-image: url('images/marta-bg-2-dark.png');
+  background-size: 100% 100%;
+  background-position: 0 400px;
+   
+}
+/**************FONTS**************/
+h1, h2, h3, h4{
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-weight: 700;
+}
+
+p, li, a{
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-weight: 400;
+	font-size: 1.125em;
+	line-height: 1.5;
+}
+
+.text-muted{
+	font-size: 36px;
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-nav{
+	float: right;
+}
+
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #f1e40c;
+	font-size: 1.5em;
+}
+.navbar-inverse{
+	opacity: .9;
+	border: none;
+}
+.navbar-inverse .navbar-nav > li > a {
+	color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: #01a3a6;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+	background-color: #01a3a6;
+}
+/* CONTACT FORM
+------------------------------------------ */
+.wpcf7-submit{
+	border: none;
+	font-size: 24px;
+	padding: 10px 45px;
+	color: #4c4c4c;
+	background-color: #fff;
+}
+.wpcf7-submit:hover{
+	background-color: #01a3a6;
+	color: #fff;
+}
+input, textarea{
+	color: #4c4c4c;
+}
+
+
+/* THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin: 60px 0;
+}
+
+.carousel h2{
+	1.5em;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  text-shadow: 4px -1px 5px rgba(0, 0, 0, 1);
+}
+
+/* Declare heights because of positioning of img element */
+.carousel{
+	height: auto;
+}
+.carousel .item {
+  /*height: 500px;*/
+  background-color: #777;
+}
+/*.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}*/
+.btn-group-lg > .btn, .btn-primary {
+	font-size: 18px;
+	color: #000;
+	background-color: #ededed;
+}
+.btn-primary{
+	border-color: transparent;
+}
+.btn-primary:hover{
+	background-color: #01a3a6;
+	border-color: transparent;
+}	
+.carousel-inner > .item > img {
+	
+}
+/* WordPress Images Styles
+--------------------------------------------*/
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+	}
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+	}
+img.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignright {
+	float: right;
+	}
+.alignleft {
+	float: left;
+	}
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}	
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.text-muted{
+	 color: #f1e40c;
+}
+/* LIGHTBOX GALLERY
+-----------------------------------*/
+.gallery {         
+    padding:0 0 0 0;
+    margin:10% 5% 0 4%;
+}
+.gallery ul li {     
+    list-style:none;
+    margin-bottom:25px; 
+	text-align: center;
+	font-size: 15px;
+}
+.gallery ul li img {
+    cursor: pointer;
+	margin: auto;
+	height: 200px;
+}
+
+.controls{          
+    width:50px;
+    display:block;
+    font-size:11px;
+    padding-top:8px;
+    font-weight:bold;          
+}
+.next {
+    float:right;
+    text-align:right;
+}
+.modal-header{
+	border-bottom: none;
+}
+.baseline{
+	display: flex;
+	align-items: flex-end;
+}
+.modal-body img{
+	margin: 0 auto;
+}	
+/******************BLOG*************/
+.main{
+	margin-top: 15%;
+	margin-left: 3%;
+}
+
+.sidebar{
+	margin-top: 5%;
+}
+
+/*Page Template Styling
+--------------------------------------------*/
+.main h3, .main h4{
+	border-bottom: 4px solid #f1e40c;
+	padding-bottom: 1%;
+}
+
+.main img{
+	margin-top: 7%;
+}
+
+/* FOOTER
+------------------------------------------------------------*/
+footer{
+	padding-top: 1%;
+	clear: both;
+	background-color: #111;
+	margin-bottom: -40px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .main{
+	margin-top: 5%;
+  }
+ 
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+  .navbar-inverse .navbar-brand {
+		font-size: 2em;
+	}
+  
+  .btn-group-lg > .btn, .btn-primary {
+	font-size: 24px;
+	padding: 10px 45px;
+	
+	}
+  
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+  
+  .gallery {         
+		padding:0 0 0 0;
+		margin:8% 0 0 1.5%;
+	}
+  
+}
+
+@media (min-width: 992px) {
+  .navbar-inverse .navbar-brand {
+		font-size: 2.5em;
+	}
+  
+  .featurette-heading {
+    margin-top: 10px;
+  }
+  .carousel .item {
+    height: 500px;
+  }
+  .carousel-inner{
+	padding-bottom: 10px;
+  }
+  
+
+  .carousel-inner > .item > img {
+	height: 700px;
+  }
+  .carousel-inner > .item > img {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  min-width: 100%;
+	  height: 500px;
+  }
+  
+}
+@media (max-width: 480px){
+	.navbar-inverse .navbar-brand {
+		font-size: 1.2em;
+	}
+	
+	.navbar-toggle{
+		padding: 5px 1px;
+		margin-right: 5px;
+	}
+	
+	.carousel-caption h1{
+		font-size: 1.5em;
+	}
+	
+	.btn-primary{
+		font-size:14px;
+	}
+}
