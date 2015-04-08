@@ -1,0 +1,662 @@
+/*
+Theme Name: MPG
+Theme URL:
+Description: A theme for an artist
+Author: TMT Digital
+Version: 1.0
+Tags: Responsive, black background 
+
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  color: #fff;
+  background-color: #111;
+  background-image: url('images/marta-bg-2-dark.png');
+  background-size: 100% 100%;
+  background-position: 0 400px;
+   
+}
+
+.row{
+	margin-left: 0;
+	margin-right: 0;
+}	
+/**************FONTS**************/
+h1, h2, h3, h4{
+	font-family: Calibri, sans-serif;
+	font-weight: 500;
+}
+.navbar-brand, .navbar-nav>li>a{
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+.navbar-brand{
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+.tagline{
+	margin-top: 5% 0 -5% 5%;
+}
+p, li, a{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.7;
+	letter-spacing: 1px;
+}
+
+
+a{
+	color: #01a3a6;
+}
+a:hover{
+	color: #ededed;
+	text-decoration: none;
+}
+.text-muted{
+	font-size: 30px;
+}
+.glyphicon{
+	font-size: medium;
+	color: #ededed;
+}
+.show-hide{
+	cursor: pointer;
+}
+.intro h3{
+	font-family:  'Montserrat Alternates', sans-serif;
+	line-height: 1.5;
+	font-weight: 100;
+	font-size: 1.5em;
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-nav{
+	float: right;
+}
+
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #f1e40c;
+	font-size: 1.5em;
+}
+.navbar-inverse{
+	opacity: .9;
+	border: none;
+}
+.navbar-inverse .navbar-nav > li > a {
+	color: #fff;
+	font-size: 1em;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: #01a3a6;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+	background-color: #01a3a6;
+}
+
+
+/* CONTACT FORM
+------------------------------------------ */
+
+form{
+	margin-top: 3%;
+}
+.wpcf7-submit{
+	border: none;
+	font-size: 24px;
+	padding: 10px 45px;
+	color: #4c4c4c;
+	background-color: #fff;
+}
+.wpcf7-submit{
+	background-color: #01a3a6;
+	color: #fff;
+}
+textarea, input{
+	border: none;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-o-border-radius: 2px;
+	-ms-border-radius:2px;
+	border-radius: 2px;
+	background-color: #f2f2f2;
+	color: #4c4c4c; 
+}	
+input {
+	height: 45px;
+	width: 95%;
+}
+
+textarea{
+	height: 150px;
+	width: 95%;
+}
+form p{
+	margin-bottom: 2%;
+}
+
+.wpcf7-submit{
+	height: auto;
+	width: auto;
+}
+/*Read more
+---------------------------------------*/
+.azc_tsh_toggle{
+	border-bottom: none;
+}
+.azc_tsh_toggle a, .azc_tsh_toggle_open a{
+	color: #fff !important;
+}
+
+.azc_tsh_toggle_container, .azc_tsh_toggle_container_open {
+	font-family: 'Montserrat Alternates', sans-serif !important;
+	font-size: 1.125em;
+	padding: 0;
+}
+
+.azc_tsh_toggle_open a, .azc_tsh_toggle_active a{
+	display: none;
+}
+
+/* THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin: 95px 0;
+}
+
+.carousel h2{
+	1.5em;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  text-shadow: 4px -1px 5px rgba(0, 0, 0, 1);
+}
+
+/* Declare heights because of positioning of img element */
+.carousel{
+	height: auto;
+}
+.carousel .item {
+  /*height: 500px;
+  background-color: #777;*/
+}
+/*.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}*/
+.btn-group-lg > .btn, .btn-primary {
+	font-size: 18px;
+	color: #000;
+	background-color: #ededed;
+}
+.btn-primary{
+	border-color: transparent;
+}
+.btn-primary:hover{
+	background-color: #01a3a6;
+	border-color: transparent;
+}	
+
+/* WordPress Images Styles
+--------------------------------------------*/
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+	}
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+	}
+img.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignright {
+	float: right;
+	max-width: 100%;
+}
+.alignleft {
+	float: left;
+	max-width: 100%;
+}
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}	
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.text-muted{
+	 color: #f1e40c;
+}
+/* LIGHTBOX GALLERY
+-----------------------------------*/
+#gallery-1 img{
+	border: none !important;
+	padding: 0 8%;
+}
+
+dd.wp-caption-text, dd.gallery-text{
+	padding: 0 1%;
+	font-size: 12px;
+}
+
+.gallery {         
+    padding:0 0 0 0;
+}
+.gallery ul li {     
+    list-style:none;
+    margin-bottom:25px; 
+	text-align: center;
+	font-size: 15px;
+	padding-top: 8%;
+}
+.gallery ul li img {
+    cursor: pointer;
+	margin: auto;
+	/*height: 200px;*/
+}
+
+.controls{          
+    width:150px;
+    display:block;
+    font-size:2em;
+    padding-top:5px;   
+	color: #ededed;
+}
+.controls:visited{
+	color: #ededed;
+	text-decoration: none;
+}
+.controls: hover{
+	color: #01a3a6;
+}
+.next {
+    float:right;
+    text-align:right;
+}
+.modal-header{
+	border-bottom: none;
+}
+.baseline{
+	display: flex;
+	align-items: flex-end;
+}
+.modal-body img{
+	margin: 0 auto;
+}
+.modal-backdrop.in{
+	opacity: .8;
+}
+.modal-content{
+	background-color: #ededed !important;
+}
+
+#myModal .modal-body {
+    max-height: 800px;
+	
+}
+	
+button.close {
+	color: #fff;
+	opacity: 1;
+	font-size: 2.5em;
+	font-weight: 100;
+}
+button.close:hover {
+	color: #fff;
+	opacity: 1;
+}
+/*Plug-in styles*/
+div.light_rounded .pp_top .pp_middle, div.light_rounded .pp_content_container .pp_left, div.light_rounded .pp_content_container .pp_right, div.light_rounded .pp_bottom .pp_middle, div.light_square .pp_left, div.light_square .pp_middle, div.light_square .pp_right, div.light_square .pp_content, div.facebook .pp_content{
+	background-color: lightgrey !important;
+}
+
+
+div.light_rounded, .pp_top, .pp_left, .pp_right, .pp_bottom{
+	background-image: none !important;
+	background-color: lightgrey !important ;
+}
+
+div.pp_pic_holder {
+	top: 0 !important;
+}
+
+.pp_left{
+	padding-left: 16px !important;
+}
+
+
+/***********GALLERY SUB PAGES*********/
+#sub-nav li{
+	display: inline-block;
+	width: 100%;
+	padding-bottom: 5%;
+}
+.gallery-item{
+	text-align: left !important;
+}
+
+.gallery-nav li a{
+	background-color: #ededed;
+	color: #000;
+	border-radius: 6px;
+	font-size: 14px;
+}
+.gallery-nav li a{
+	padding: 5px;
+}
+
+.gallery-nav li a:hover{
+	background-color: #01a3a6;
+	color: #fff;
+}
+li.current_page_item a {
+	background-color: #01a3a6 !important;
+	color: #fff;
+}
+
+
+/******************ABOUT*************/
+.main{
+	margin-top: 15%;
+	padding-left: 3%;
+}
+
+.sidebar{
+	margin-top: 5%;
+}
+#resume{
+	margin-top: -7%;
+}
+.resume-section{
+	margin-top:-10%;
+}
+
+.azc_tsh_toggle_container, .azc_tsh_toggle_container_open{
+	padding: 0 !important;
+}
+
+
+/*Page Template Styling
+--------------------------------------------*/
+.main h3, .main h4{
+	border-bottom: 1px solid #f1e40c;
+	padding-bottom: 1%;
+}
+
+.main img{
+	margin-top: 7%;
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+/* FOOTER
+------------------------------------------------------------*/
+footer{
+	padding-top: 1%;
+	clear: both;
+	background-color: #111;
+	margin-bottom: -40px;
+	font-size:.8em;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 5px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 3%;
+    padding-left: 3%;
+  }
+
+  .main{
+	margin-top: 4%;
+  }
+ 
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+  .navbar-inverse .navbar-brand {
+		font-size: 1.75em;
+   }
+  
+  .btn-group-lg > .btn, .btn-primary {
+	font-size: 16px;
+	padding: 10px 30px;
+	
+	}
+  
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 36px;
+	letter-spacing: 2px;
+  }
+  .featurette p{
+	font-size: 18px !important;
+	letter-spacing: 1px;
+  }
+  
+	.gallery {         
+		padding:0 0 0 0;
+	}
+	dd.wp-caption-text, dd.gallery-text{
+		font-size: 16px;
+	}
+	
+	#sub-nav li{
+		margin-left: 0;
+		width: auto;
+	}
+	#sub-nav{
+		padding-left: 2%;
+	}
+	
+	.resume-content p{
+		padding-right: 10%;
+		font-family: Calibri, sans-serif;
+	}
+	
+	input {
+		height: 45px;
+		width: 50%;
+		padding: 1%;
+	}
+
+	textarea{
+		height: 150px;
+		width: 50%;
+	}
+	
+	ul.row{
+		margin-left: -5%
+	}
+    .gallery ul li { 
+		padding-top: 2%;
+	}
+	
+	#gallery-1 img {
+		padding: 0%;
+	}
+	
+	.resume-section{
+		margin-top: -5%;
+  }
+  
+  
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar-inverse .navbar-brand {
+		font-size: 2.125em;
+	}
+  
+  .featurette-heading {
+    margin-top: 10px;
+  }
+  .carousel .item {
+    height: 216px;
+  }
+  .carousel-inner{
+	padding-bottom: 10px;
+  }
+    
+  .carousel-inner > .item > img {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	
+  }
+  
+  	  /*Works (Gallery landing)  pages*/
+	.description p:first-child{
+		margin-top: 16%;
+	}
+	.description p{
+		margin-bottom: 5%;
+	}
+
+ 
+}
+
+@media only screen and (min-width: 1170px) {
+	ul.row{
+		margin-left: -3%
+	}
+
+}
+@media only screen and (min-width: 481px) and (max-width: 768px){
+
+	ul.row{
+		margin-right: 5%
+	}
+	
+	
+	
+}
+
+@media only screen and (max-width: 480px){
+	.navbar-inverse .navbar-brand {
+		font-size: 1.2em;
+	}
+	
+	.navbar-toggle{
+		padding: 5px 1px;
+		margin-right: 5px;
+	}
+	
+	.carousel-caption h1{
+		font-size: 1.5em;
+	}
+	.carousel-indicators {
+		display: none;
+	}
+	
+	.btn-primary{
+		font-size:14px;
+	}
+	
+	
+	.col-xs-12{
+		width: 100% !important;
+	}
+	
+	.controls{          
+    	font-size:1.5em;
+	}
+	
+	ul.row{
+		margin-left: -3%
+	}
+	
+	.gallery-nav li a{
+		margin-left: 5%;
+	}
+
+	
+}
